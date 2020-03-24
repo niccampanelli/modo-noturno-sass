@@ -1,0 +1,67 @@
+#switch:checked ~ * {
+  background-color: #1f1f24 !important;
+  color: white !important;
+}
+
+#switch:checked ~ * input {
+  background-color: #2abbff !important;
+  color: white !important;
+}
+
+#switch:not(:checked) ~ * input {
+  background-color: #faab00 !important;
+  color: white !important;
+}
+
+#switch {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 400;
+}
+
+b {
+  font-weight: 700;
+  color: #ff0055;
+}
+
+header {
+  padding-top: 1vw;
+  text-align: right;
+  padding-right: 2vw;
+  font-size: 1vw;
+  height: 30vh;
+  width: auto;
+}
+
+#ativar {
+  cursor: pointer;
+}
+
+#campo {
+  height: 4vh;
+  width: 30vh;
+  margin-top: 1vw;
+  border-radius: 5vw 5vw 5vw 0;
+  border: none;
+  font-size: 3vh;
+}
+
+.textoNormal {
+  font-size: 3vh;
+}
+
+.content {
+  height: 70vh;
+  width: auto;
+  padding: 0 5vw 0 5vw;
+}
+/*# sourceMappingURL=style.css.map */
